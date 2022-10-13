@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-/*
- * main - Printing*
+/**
+ * main - Prints hello word
  * Return: Returns 0
  */
 
