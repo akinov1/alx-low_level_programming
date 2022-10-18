@@ -1,5 +1,5 @@
-#ifndef main.h
-#define main.h
+#ifndef main_h
+#define main_h
 
 int _putchar(char c);
 void print_alphabet(void);
@@ -15,6 +15,5 @@ int add(int, int);
 void print_times_table(int n);
 void print_to_98(int n);
 void print_times_table(int n);
-
 
 #endif
