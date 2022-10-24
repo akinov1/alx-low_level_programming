@@ -1,9 +1,11 @@
 #include "main.h"
 
 /**
- * print_rev - Prints a string in reverse.
+ * print_rev - imprime en reversa
  *
- * @s: string to be reserved.
+ * @s: string
+ *
+ * return: 0
  *
 */
 
@@ -11,19 +13,33 @@ void print_rev(char *s)
 
 {
 
-	int len = 0, i;
+	int longi = 0;
+
+	int o;
 
 
 
-	while (s[i++])
+	while (*s != '\0')
 
-	len++;
+	{
 
+	longi++;
 
+	s++;
 
-	for (i = len - 1; i >= 0; i--)
+	}
 
-	_putchar(s[i]);
+	s--;
+
+	for (o = longi; o > 0; o--)
+
+	{
+
+	_putchar(*s);
+
+	s--;
+
+	}
 
 
 
